@@ -26,8 +26,8 @@ M906 X800 Y1000 Z800 E800           ; Set motor currents (mA)
 M569 P0 S1                          ; Set X axis direction
 M92 E420                            ; Set extruder steps per mm
 M558 P1                             ; Use an unmodulated Z probe (change to P2 if you update to the modulated probe)
-G31 Z2.0 P600                       ; Set the probe height and threshold (deliberately too high to avoid bed crashes on initial setup)
-;G31 Z1.6 P666                       ; Set the probe height and threshold (deliberately too high to avoid bed crashes on initial setup)
+G31 Z2.0 P600                       ; Set the probe height and threshold
+;G31 Z1.6 P666                       ; Set the probe height and threshold
 M556 S75 X0 Y0 Z0                   ; Put your axis compensation here
 M201 X500 Y500 Z15 E500             ; Accelerations (mm/s^2)
 M203 X15000 Y15000 Z150 E3600       ; Maximum speeds (mm/min)
