@@ -13,7 +13,7 @@ M550 POrmerod                       ; Machine name (can be anything you like). W
 M551 Preprap                        ; Machine password (currently not used)
 M540 P0xBE:0xEF:0xDE:0xAD:0xFE:0xED ; MAC Address
 ;M552 P0.0.0.0                       ; Un-comment for DHCP
-M552 P192.168.7.14                  ; IP address, comment for DHCP
+M552 P192.168.4.10                  ; IP address, comment for DHCP
 M553 P255.255.252.0                 ; Netmask
 M554 P192.168.4.1                   ; Gateway, comment for DHCP
 M555 P2                             ; Set output to look like Marlin
